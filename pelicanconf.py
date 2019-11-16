@@ -47,13 +47,14 @@ AUTHOR_FEED_RSS = None
 MAIN_MENU = True
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Our Meetup Group', 'https://www.meetup.com/Data-Science-for-Non-Profits')
+         ('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('meetup', 'https://www.meetup.com/Data-Science-for-Non-Profits/'),)
+SOCIAL = (('github', 'https://github.com/DataScience4NonProfits'),)
 
 DEFAULT_PAGINATION = 10
 
