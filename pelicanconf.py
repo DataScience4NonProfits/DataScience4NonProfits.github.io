@@ -19,7 +19,7 @@ SITEURL = 'https://DataScience4NonProfits.github.io'
 SITENAME = 'DataScience4NonProfits'
 SITE_TITLE = 'Data Science for Non-Profits'
 SITE_SUBTITLE = 'San Diego, CA'
-SITELOGO = SITEURL + '/images/profile.png'
+SITELOGO = SITEURL + '/images/ds4np_profile.jpeg'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 BROWSER_COLOR = '#333'
