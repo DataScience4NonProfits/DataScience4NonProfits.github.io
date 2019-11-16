@@ -54,7 +54,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('meetup', 'https://www.meetup.com/Data-Science-for-Non-Profits/'),)
-)
 
 DEFAULT_PAGINATION = 10
 
