@@ -48,9 +48,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MAIN_MENU = True
+MENU_ITEMS = (('Archives', '/archives.html'),
+              ('Categories', 'categories.html'),
+              ('Tags', '/tags.html'),
+)
+LINKS_IN_NEW_TAB = 'external'
 
 # Blogroll
-LINKS = (('Our Meetup Group', 'https://www.meetup.com/Data-Science-for-Non-Profits'),)
+LINKS = (('Our Meetup Group', 'https://www.meetup.com/Data-Science-for-Non-Profits'),
+         ('SD Regional Data Library', 'https://www.sandiegodata.org/'),
+         ('SD Open Data', 'https://data.sandiego.gov/'),     
+)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/DataScience4NonProfits'),)
