@@ -6,6 +6,9 @@ THEME = '/Users/brettcastellanos/projects/pelican-themes/Flex'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
+ARTICLE_PATHS = ['blog']
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
