@@ -22,6 +22,7 @@ SITEURL = 'https://DataScience4NonProfits.github.io'
 SITENAME = 'DataScience4NonProfits'
 SITE_TITLE = 'Data Science for Non-Profits'
 SITE_SUBTITLE = 'San Diego, CA'
+SITEDESCRIPTION = 'Data Science for Non-Profits Blog'
 SITELOGO = SITEURL + '/images/ds4np_profile.jpeg'
 FAVICON = SITEURL + '/images/favicon.ico'
 
@@ -48,8 +49,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MAIN_MENU = True
-MENU_ITEMS = (('Archives', '/archives.html'),
-              ('Categories', 'categories.html'),
+
+MENUITEMS = (('Archives', '/archives.html'),
+              ('Categories', '/categories.html'),
               ('Tags', '/tags.html'),
 )
 LINKS_IN_NEW_TAB = 'external'
